@@ -9,8 +9,8 @@
         <property name="message" value="Hello, i'm Spring and i injected this message"/>
     </bean>
 
-    <bean id="helloWorldProcessor" class="com.evan.learning.model.basic.HelloWorldProcessor" init-method="init">
-    </bean>
+<!--    <bean id="helloWorldProcessor" class="com.evan.learning.model.basic.HelloWorldProcessor" init-method="init">-->
+<!--    </bean>-->
     <bean class="com.evan.learning.model.basic.HelloWorldInitial"/>
 
 

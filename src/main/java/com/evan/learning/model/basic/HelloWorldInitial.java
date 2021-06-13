@@ -10,7 +10,7 @@ public class HelloWorldInitial implements BeanPostProcessor {
 
         System.out.println("Before initialization: " + beanName);
 //        helloWorldProcessor.setValue("Value from HelloWorldProcessor before init");
-//        helloWorldProcessor.getValue();
+        helloWorldProcessor.getValue();
         if (obj instanceof HelloWorld) {
             ((HelloWorld) obj).getMessage();
         } else if (obj instanceof HelloWorldProcessor) {
